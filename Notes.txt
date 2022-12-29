@@ -1,0 +1,85 @@
+<center>  -->  basiclly moves our content in the center.
+<hr size ="3" noshade > -->  here  noshade is for the shade of our horizontal line.
+Internet archieve -->  is the website we can look what websites looks when it is launched.
+lang --> language in the html
+title --> it is the title of the website
+em--> tag is for italicize
+strong -->  tag  is for bold <strong><\strong> and it's example is <strong><em>VNIT <em></strong>
+ul --> it is used for unordered list
+ol --> it is used for ordered list we get numbering from 1 to N
+img<src=" sources de bhai ya koi link "> --> this is for adding images to our website
+example -->   <img src="images/myImage.jfif" width="200" height="200">
+ crop-circle.imageonline.co --> this website is used for circling the image
+<a href="url">link text</a> --> is used to add a link in our website
+table --> it is used for creating tables in our html
+tr--> it is used for creating row
+td --> table data
+th --> it is used for the table head bascilly provides the content info to us
+thead --> it is table head section used for when we want to style the table head diferently
+tbody --> it is used for the content in our body
+tfoot --> used for the the foot of the table
+cellspacing --> basiclly it adds some space
+** --> To create a multi column table we can just ceate another table inside a td
+form --> we can add a form int the html
+label --> inside the form we can make labels that will be displayed as a label inside the label form
+input -->  we using this we can input in our html it has vaious types  such as submit,checkbox,password email   etc;
+** --> In html we have an action namely called action and this used for whee this particual thing is taregetted.
+Publishing Website -->  We are using Github to do this
+
+
+/** CSS **/
+--> there ae three types of css inline css , internal CSS and external CSS
+Colorunt.io povides us with good color
+Inline CSS we can do  this by using going line by line and implementing
+Extenal CSS --> We can do  this by using styles tag like we can create a style tag and start implementing the same
+Deafult CSS --> some css which browser applied to our website
+**--> We cant change the dimension of body as it is blocked
+--> for a dotted border line we can use  (border-style dotted)
+--> background color will change the box color and color simply just hchange the text color this is the diff to note
+--> how to debug CSS Use devloper tools and console to use this and figure it out
+**--> Inline CSS > Internal CSS >  External CSS
+--> Anatomy Of Css syntax   -->  selector{property:value;}  --> selector -> who , property ->  what , value -> how;
+--> id are unique where classes are unique and both overrides default size or parent styles
+--> .ClassName{
+  propety:color;
+}
+--> #IdName{
+  property:color;
+}
+/** ADVANCED CSS */
+
+Favicon --> show up in browser (favicon. cc) is the website we will use this to create our favicons
+--> For underline we do text-decoration : underlined;
+
+** DIVS -->
+They help us to divide our content into blocks
+we can also define borders for our borders
+padding space between border and content
+margin is the buffer zone  So rememer four thing margin--> border--> padding -->content;
+margin gives us space from the another elements it just gives us space.
+
+--> CSS Display property
+1) Block elements take the whole width of the screen  and eg--> <p> , <div> , <form> ,<h1> to <h6> and list items
+like <ol> <li> <ul>
+** span helps us to selects one part of the element and let us style it differently
+2) Inline Elements Jitna space chahiye utna hi lete hai eg--> span,images,<a>
+we cant change the width of the inline element
+--> and we can also change the display property from inline to lock and vice versa
+3) Inline block they are inline also and block elements also best of all and we can also change the property
+4) None removes the element form the website Eg hiding quiz
+and we can also do this by the property visiility : hidden;
+
+-->  Relative Postioning  It moves our object relative to the earlier position  and to do this we do {position: Relative;} agar left toh right top toh bottom jayega vicevesa
+--> Absolute Positioning it moves our element relative to the body and to do this {position:absolute;}
+
+--> Centeing Elements  We wnat to center our element in our website so we can use text-align It does not work for bock element or if it's width is set then we will use auto
+eg: margin: 0 auto 0 auto;
+
+--> Font Sytling We have taken the help of the google font bascillt two types ine is serif and the other is sans serif
+and also we have added a link to make this all happen
+we can look to our website flaticon
+--> Font weight tell specifies the boldness of the font
+--> Line Width helps us to specify the space between the lines.
+
+
+---> FLoat and clear clear is the anti float  by using float we can left align and ight align 
